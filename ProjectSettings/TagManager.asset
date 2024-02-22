@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - GOAL
+  - BG
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Floor
   - 
   - 
   - 
@@ -38,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 911512429
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
